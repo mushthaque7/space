@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+}
+body{
+    background-image:url(/assets/home/background-home-desktop.jpg);
+    background-size: cover;
+    position: relative;
+    background-position:center ;
+    width: 100%;
+    height:90vh;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    margin-top: 50px;
+}
+.navimg{
+    position: relative;
+    left: 30px;
+    width: 80%;
+}
+.navbar hr{
+    position: relative;
+    left: 200px;
+    width: 39%;
+    bottom: 29px;
+    background-color:white;
+    opacity: 0.1;
+    border-style: none;
+    height: 1px;
+    z-index: 1;
+    
+}
+nav{
+    display: flex;
+    width: 100%;
+    
+}
+.navb{
+    position: absolute;
+    bottom: 100px;
+    margin-top: 30px;
+    width:50%;
+    height: 40px;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    padding-top: 20px;
+    margin-left: 46%;
+    bottom: 25px;
+    left: 60px;
+}
+.nav li{
+    list-style:none;
+    text-decoration: none;
+    text-decoration: none;
+    display:inline-block;
+    position: relative;
+    
+}
+.nav li a{
+    text-decoration: none;
+    position: relative;
+    font-size: 13px;
+    font-weight: 1px;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    word-spacing: 6px;
+}
+.active::after{
+    content: "";
+    position: absolute;
+    background: white;
+    width: 75%;
+    left: 19px;
+    height: 3%;
+    display: block;
+    margin: auto;
+}
+.select::after{
+    content: "";
+    position: absolute;
+    background: rgb(219, 216, 216);
+    opacity: 0.5;
+    width: 0;
+    left: 14px;
+    height: 3%;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.select:hover::after{
+    width: 85%;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.cont{
+    width: 50%;
+}
+.cont2{
+    width: 50%;
+}
+.contd h4{
+    font-size: 22px;
+    font-family: 'Bellefair', serif;
+    color:white;
+    font-weight: normal;
+    top: 5px;
+    letter-spacing: 5px;
+}
+.contd{
+    word-spacing: 6px;
+    position: absolute;
+    left: 13.1%;
+    top:19%
+}
+.num{
+    font-size: 22px;
+    font-family: 'Bellefair', serif;
+    color:rgb(151, 147, 147);
+    font-weight: bold;
+}
+.pos{
+    position: relative;
+    left:25% ;
+    top: 180px;
+    
+}
+.pos h3{
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2.35px;
+    font-weight: normal;
+    font-size: 20px;
+}
+.desname{
+    position: relative;
+    left: 24%;
+    top: 200px;
+    width: 300px;
+
+}
+.desname h1{
+    font-size: 120px;
+    font-family: 'Bellefair', serif;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.descont{
+    width:420px;
+    height: 0;
+}
+.descont p{
+    position: relative;
+    color: #D0D6F9;
+    left: 192px;
+    top: 200px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 50;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.contimg{
+    position: relative;
+}
+.contimg img{
+    position: absolute;
+    top:45px;
+    height: 500px;
+    width: 500px;
+    left:268px;   
+}
+p{
+    text-align:justify;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    background: rgb(213, 205, 205);
+    border-radius: 50%;
+    transition:box-shadow 0.35s ease;
+    margin-top: 290px;
+    margin-left: 350px;
+    cursor: pointer;
+}
+.circle:hover{
+    box-shadow: 0 0 0 37px rgba(255,255,255,0.3);
+}
+.circle p{
+    text-align: center;
+    padding-top: 44%;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 5px;
+}
+@media(max-width:700px){
+    hr{
+        display: none;
+    }
+    .navimg{
+        display: flex;
+    }
+    .navbar{
+        display: none;
+    }
+    body{
+        background: url(assets/home/background-home-mobile.jpg);
+        background-size: cover;
+        position: relative;
+        background-position:center ;
+        width: 100%;
+        height:100vh;
+    }
+    .pos{
+        width: 100vh;
+        position: relative;
+        left: 80px;
+    }
+    .pos h3{
+        font-size: 18px;
+    }
+    .descont{
+        margin-right: 60px;
+    }
+    .descont{
+        position: relative;
+        right: 150px;
+    }
+    .descont p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .circle{
+        position: relative;
+        margin-left: -70px;
+        margin-top: 535px;
+        height: 170px;
+        width: 170px;
+    }
+}

@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+}
+body{
+    background-image:url(/assets/destination/background-destination-desktop.jpg);
+    background-size: cover;
+    position: relative;
+    background-position:center ;
+    width: 100%;
+    height:90vh;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    margin-top: 50px;
+}
+.navimg{
+    position: relative;
+    left: 30px;
+    width: 80%;
+}
+.navbar hr{
+    position: relative;
+    left: 200px;
+    width: 39%;
+    bottom: 29px;
+    background-color:white;
+    opacity: 0.1;
+    border-style: none;
+    height: 1px;
+    z-index: 1;
+    
+}
+nav{
+    display: flex;
+    width: 100%;
+    
+}
+.navb{
+    position: absolute;
+    bottom: 100px;
+    margin-top: 30px;
+    width:50%;
+    height: 40px;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    padding-top: 20px;
+    margin-left: 46%;
+    bottom: 25px;
+    left: 60px;
+}
+.nav li{
+    list-style:none;
+    text-decoration: none;
+    text-decoration: none;
+    display:inline-block;
+    position: relative;
+    
+}
+.nav li a{
+    text-decoration: none;
+    position: relative;
+    font-size: 13px;
+    font-weight: 1px;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    word-spacing: 6px;
+}
+.active::after{
+    content: "";
+    position: absolute;
+    background: white;
+    width: 75%;
+    left: 19px;
+    height: 3%;
+    display: block;
+    margin: auto;
+}
+.select::after{
+    content: "";
+    position: absolute;
+    background: rgb(219, 216, 216);
+    opacity: 0.5;
+    width: 0;
+    left: 14px;
+    height: 3%;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.select:hover::after{
+    width: 85%;
+}
+.main{
+    width: 100%;
+}
+.cont{
+    width:50%;
+    float: left;
+}
+.cont2{
+    position: relative;
+    width: 50%;
+    float: left;
+}
+.num{
+    font-size: 22px;
+    font-family: 'Bellefair', serif;
+    color:rgb(151, 147, 147);
+    font-weight: bold;
+}
+.contd h4{
+    font-size: 22px;
+    font-family: 'Bellefair', serif;
+    color:white;
+    font-weight: normal;
+    top: 5px;
+    letter-spacing: 5px;
+}
+.contd{
+    word-spacing: 6px;
+    position: absolute;
+    left: 12%;
+    top:19%
+}
+.contimg{
+    position: relative;
+}
+.contimg img{
+    position: relative;
+    top: 140px;
+    left: 250px;
+}
+.navdes{
+    right: 20px;
+}
+.navdes li{
+    list-style:none;
+    text-decoration: none;
+    text-decoration: none;
+    display:inline-block;
+    position: relative;
+    left: 900px;
+    bottom: 320px;
+    
+}
+.navdes li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    color: #D0D6F9;
+    padding: 5px;
+    margin-left: 20px;
+    word-spacing: 6px;
+    opacity:0.8;
+    letter-spacing: 2.7px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.desname{
+    position: relative;
+    left:124%;
+    bottom: 300px;
+    width: 300px;
+
+}
+.desname h1{
+    font-size: 120px;
+    font-family: 'Bellefair', serif;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.descont{
+    width:420px;
+    height: 0;
+}
+.descont p{
+    position: relative;
+    color: #bbb5b5;
+    left: 228%;
+    bottom: 290px;
+    font-family: 'Bellefair', serif;
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.cont2 hr{
+    width: 60%;
+    color: #FFFFFF;
+    position: relative;
+    left:950px;
+    bottom: 140px;
+    opacity: 0.1;
+}
+.avg{
+    position: relative;
+    bottom: 170px;
+    display: flex;
+    left: 940px;
+    width: 500px;
+    height: 0;
+}
+.avg h2{
+    color:#bbb5b5;
+    padding:50px;
+    font-size: 14px;
+    letter-spacing: 2.35px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 100;
+}
+.avgnum{
+    position: relative;
+    bottom: 110px;
+    display: flex;
+    left: 970px;
+    width: 500px;
+    height: 0;
+}
+.avgnum h1{
+    color: #FFFFFF;
+    padding:20px;
+    font-size: 25.5px;
+    letter-spacing: 2.35px;
+    font-family: 'Bellefair', serif;
+    font-weight: 100;
+}
+p{
+    text-align:justify;
+}
